@@ -10,6 +10,7 @@ import org.ums.manager.ContentManager;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicReference;
 
@@ -33,6 +34,8 @@ public class PersistentDepartmentDao extends ContentDaoDecorator<Department, Mut
     String query = SELECT_ALL;
     return mJdbcTemplate.query(query, new DepartmentRowMapper());
   }
+
+
 
   class DepartmentRowMapper implements RowMapper<Department> {
     @Override

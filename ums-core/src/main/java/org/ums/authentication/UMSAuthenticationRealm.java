@@ -39,7 +39,7 @@ public class UMSAuthenticationRealm extends JdbcRealm {
 
 
   @Override
-  protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {
+  protected AuthenticationInfo  doGetAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {
 
     SimpleAuthenticationInfo info;
 

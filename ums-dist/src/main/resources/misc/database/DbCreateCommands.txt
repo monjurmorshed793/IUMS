@@ -16,3 +16,10 @@ Apu
 -----
 exp DB_IUMS/ig100@XE  STATISTICS=NONE FILE='E:\Projects\UMS\ums-dist\src\main\resources\misc\database\DB_IUMS.dmp' log=F:\backuplog.txt
 imp  DB_IUMS/ig100@XE   STATISTICS=NONE FILE='E:\Projects\UMS\ums-dist\src\main\resources\misc\database\DB_IUMS.dmp' log=F:\backuplog.txt 
+
+Morshed
+-------
+exp DB_IUMS/ig100@XE  STATISTICS=NONE FILE='H:\IUMS-Source\UMS\ums-dist\src\main\resources\misc\database\DB_IUMS.dmp' log=H:\backuplog.txt
+imp  DB_IUMS/ig100@XE   STATISTICS=NONE FILE='H:\IUMS-Source\UMS\ums-dist\src\main\resources\misc\database\DB_IUMS.dmp' log=H:\backuplog.txt 
+
+imp DB_IUMS/ig100@XE  STATISTICS=NONE FILE='C:\DB_IUMS.dmp' log=H:\backuplog.txt
